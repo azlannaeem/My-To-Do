@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "MyToDo",
-    "slug": "MyToDo",
+    "slug": "my-to-do",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -15,7 +15,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.azlannaeem.my-to-do"
     },
     "android": {
       "adaptiveIcon": {
@@ -25,6 +26,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ed9c7998-724d-49b8-b6ae-35c009b3f413"
+      }
+    },
+    "owner": "azlannaeem"
   }
 }
